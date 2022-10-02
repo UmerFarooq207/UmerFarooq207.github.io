@@ -1,0 +1,331 @@
+head{margin: 0px;padding: 0px;}
+.nav{width: 100%;float: left;border-top: 1px solid #ccc;}
+.container1{max-width: 1080px;margin: auto;text-align: center;}
+.nav img{height: 50px;width: 150px;padding: 20px;float: left;}
+.menu{width: 70%;float: right;}
+.tools{float: right;margin: 0px;}
+.tools li{display: inline;}
+.tools li a{text-decoration: none;padding: 34px 15px;color: #ccc;float: left;}
+.menu li a:hover, .menu li a.active{color: rgb(248, 198, 135);border-top: 3px solid rgb(248, 198, 135);}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline;
+    color: rgb(255, 139, 0);
+}
+
+
+
+.header{
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: scroll;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: auto;
+    
+}
+
+.profile{    
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.profile-img{
+    margin: 60px 0px;
+    margin-left: 100px;
+    max-width: 240px;
+    border-radius: 50%;
+}
+
+.text{
+    padding: 40px 30px;
+    width: 70%;
+    color: #ffff;
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+p{  
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 200;
+    line-height: 1.2;
+}
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem ;
+    font-weight: 700!important;
+}
+
+.btn{
+    
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 30px;
+    border: rgb(85, 170, 240,0.1) ;
+    border-radius: 1rem;
+
+}
+.btn:hover{
+    background-color:  rgb(255, 139, 0);
+}
+.heading{
+    padding: 40px 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+}
+
+.contact-main{
+ background-color: #ffff;
+}
+
+.profile-small {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+.profile-medium {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.contact-photo{
+    text-align: center;
+    padding: 50px;
+}
+.info{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 0.125rem 
+    0.25rem rgba(0,0,0,0.3)!important;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+.info-text{
+    padding: 3rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    color: rgb(100, 99, 99);
+}
+.icon{
+    color: rgb(255, 139, 0);
+    font-size: 60px;
+    padding: 10px 20px;
+}
+.icon1{
+     color: rgb(116, 115, 115);
+}
+.icon2{
+    color: rgb(84, 174, 234);
+    font-size: 60px;
+    padding: 10px 20px;
+}
+.icon3{
+    color: #F51B1B;
+    font-size: 60px;
+    padding: 10px 20px;
+}
+.icon4{
+    color: #3b5998;
+    font-size: 60px;
+    padding: 10px 20px;
+}
+
+
+.skills{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgba(237, 248, 169, 0.2);
+    float: left;
+}
+
+.mid-text{
+    font-family: 'Roboto', sans-serif;color: rgb(71, 71, 71);
+    padding: 20px 0px;
+}
+
+.container2{max-width: 860px;margin:auto;display: flex;flex-flow: row;}
+.content{width: 46%;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 0.125rem 
+    0.25rem rgba(0,0,0,0.3)!important;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+    padding-top: 50px;
+    margin-left: 2%;
+    text-align: center;
+}
+.content h1{font-size: 30px;font-family: 'Roboto', sans-serif;color: rgb(71, 71, 71);padding-bottom: 20px;}
+.content p{font-size: 18px;font-family: 'Roboto', sans-serif;color: rgb(131, 128, 128);line-height: 15px;}
+
+
+.resume-main{width: 100%;max-width: 1080px;min-height:1000px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    box-sizing: border-box;
+    box-shadow: 0 0.125rem 
+    0.25rem rgba(0,0,0,0.3)!important;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+
+
+.resume-main .left-block{
+    position: relative;
+    background-color: rgb(255, 143, 7);
+    padding: 10px;
+}
+.left-block .profile-text{
+    padding: 20px 0px;
+    border-bottom: 1px solid #ffff;
+    text-align: center;
+}
+.left-block p{
+    color: #ffff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.left-block span{
+    font-size: 0.7em;
+    font-weight: 300;
+}
+.contact-info{
+    padding: 40px 20px;
+}
+.title{
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact-info ul{
+    position: relative;
+}
+.contact-info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.contact-info ul li .sign{
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color: #324366;
+
+}
+.contact-info ul li span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.education li{
+    margin-bottom: 15px;
+}
+.education h5{
+    color: #324366 ;
+    font-weight: 600;
+}
+.education h4:nth-child(2){
+    color: #ffff;
+    font-weight: 500;
+}
+.education h4{
+    color: #ffff;
+    font-weight: 300;
+}
+.lang .text{
+    margin: -30px;
+}
+.lang .percent{
+   position: relative;
+   width: 100%;
+   height: 6px;
+   background:rgb(162, 96, 15) ;
+   display: block;
+   margin-top: 5px;
+}
+.lang .percent div{
+    position: absolute;
+    height: 100%;
+    background: rgb(250, 173, 79) ;
+ }
+
+
+
+
+.resume-main .right-block{
+    position: relative;
+    background-color: #ffff;
+    padding: 40px;
+}
+.about-resume{
+    margin-bottom: 100px;
+}
+.about-resume:last-child{
+    margin-bottom: 0px;
+}
+.title2{
+    font-family: 'Roboto', sans-serif;
+    color: #324366;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.about-resume p{
+    color: #333!important;
+}
+
+.professional .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+}
+.box h4{
+    color: #333!important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.box .percent{
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgb(162, 96, 15) ;
+}
+.box .percent div{
+    position: absolute;
+    height: 100%;
+    background: rgb(250, 173, 79) ;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #ccc;
+    float: left;
+    border-top: black solid 0.1rem;
+    text-align: center;
+}
